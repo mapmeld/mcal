@@ -320,13 +320,3 @@ module.exports = {
 		mm: monthsMM
 	}
 };
-
-console.log(toMyanmar(new Date("April 15, 1989")) === "၁၀ တန်ခူး ၁၃၅၀");
-console.log(toMyanmar(new Date("April 15, 1989"), "en") === "10 Tagu, 1350");
-console.log((toGregorian("10 Tagu, 1350") + "").indexOf("Sat Apr 15 1989") === 0);
-console.log((toGregorian("Tagu 10, 1350") + "").indexOf("Sat Apr 15 1989") === 0);
-
-// console.log(toMyanmar(new Date("June 13, 1988"), "en")); - WRONG
-console.log(toMyanmar(new Date("June 14, 1988"), "en"));
-console.log(toMyanmar(new Date("June 14, 1988"), "mm"));
-console.log(toMyanmar(new Date("June 29, 1988"), "en"));
