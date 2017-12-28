@@ -1,0 +1,31 @@
+{
+  "name": "myanmar-calendar",
+  "version": "1.0.0",
+  "description": "Myanmar / Burmese calendar date conversion",
+  "main": "mc.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapmeld/mcal.git"
+  },
+  "keywords": [
+    "calendar",
+    "myanmar",
+    "burma",
+    "burmese"
+  ],
+  "author": "Nick Doiron <ndoiron@mapmeld.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapmeld/mcal/issues"
+  },
+  "homepage": "https://github.com/mapmeld/mcal#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "myanmar-numbers": "^2.1.3"
+  }
+}
